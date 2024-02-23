@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Sorteio</title>
+</head>
+<body>
+    <header>
+        <img id="logoVortigo" src="./assets/vortigo-logo.webp" alt="Logo da empresa Vortigo" draggable="false">
+    </header>
+
+    <div id="container_sorteio">
+        <h1>Hora do sorteio!</h1>
+        <p id="round">Rodada</p>
+        <div id="div_buttons">
+            <button id="sort" class="transition" onclick="sort()">Sortear</button>
+            <button id="reset" class="transition" onclick="reset()">Resetar</button>
+        </div>
+        <p id="chosen">Clique em sortear para sortear um participante!</p>
+    </div>
+
+    <div id="container_a_sortear">
+        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
