@@ -5,9 +5,9 @@ function avaliarExpressao(expressao) {
     for (let i = 0; i < tokens.length; i++) {
         const token = tokens[i];
         
-        if (!isNaN(token)) { // Verifica se é um número
+        if (!isNaN(token)) {
             pilha.push(parseFloat(token));
-        } else { // É um operador
+        } else { 
             const operand2 = pilha.pop();
             const operand1 = pilha.pop();
             
